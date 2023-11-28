@@ -1,26 +1,26 @@
 <template>
     <div>
-        <div>
-            <button v-on:click="addLike">Like</button>
-        </div>
-        <div><strong>Кол-во лайков:</strong> {{ likes }}</div>
+        <nav class="navbar">
+            <div class="container_nav">
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="navbar-wrap">
+                    <ul class="navbar-menu">
+                        <li><a href="#">Проекты</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <main>
+            
+        </main>
     </div>
 </template>
 
 <script>
-export default {
-    data() {
-        return {
-            likes: 0,
-            
-        }
-    },
-    methods: {
-        addLike() {
-            this.likes += 10000;
-        }
-    }
-}
+
 </script>
 
 <style>
