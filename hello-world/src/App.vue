@@ -14,7 +14,11 @@
             </div>
         </nav>
         <main>
-            
+            <div class="container">
+                <div class="container_row">
+                    <span class="project_name">RimWorld</span>
+                </div>
+            </div>
         </main>
     </div>
 </template>
