@@ -19,6 +19,32 @@
                     <span class="project_name">RimWorld</span>
                 </div>
             </div>
+            <div class="container">
+                <div class="container_row">
+                    <div class="menu">
+                        <span>Другие доски</span>
+                    </div>
+                    <div class="block">
+                        <div class="container">
+                            <div class="block_name">
+                                <span>Игровой процесс</span>
+                                <p>Что надо сделать</p>
+                                <div class="container">
+                                    <div class="">
+                                        <span></span>
+                                    </div>
+                                    <div class="">
+                                        <span></span>
+                                    </div>
+                                    <div class="">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 </template>
