@@ -20,33 +20,71 @@
                 </div>
             </div>
             <div class="container">
-                <div class="container_row">
+                <div class="container_menu">
                     <div class="menu">
                         <span>Другие доски</span>
                     </div>
-                    <div class="block">
-                        <div class="container">
-                            <div class="block_name">
+                        <div class="block">
+                            <div class="container">
+                                <div class="block_name">
                                 <span>Игровой процесс</span>
                                 <p>Что надо сделать</p>
-                                <div class="container">
-                                    <div class="">
+                                </div>
+                                <div class="container_con">
+                                    <div class="container_first">   <!-- Первый контейнер -->
                                         <span></span>
                                     </div>
-                                    <div class="">
+                                    <div class="container_first">     <!-- Второй контейнер -->
                                         <span></span>
                                     </div>
-                                    <div class="">
+                                    <div class="container_first">   <!-- Третий контейнер -->
                                         <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="container">
+                                <div class="block_name">
+                                    <span>Игровой процесс</span>
+                                    <p>Что надо сделать</p>
+                                    <div class="container_con">
+                                        <div class="container_first">   <!-- Первый контейнер -->
+                                            <span></span>
+                                        </div>
+                                        <div class="container_first">     <!-- Второй контейнер -->
+                                            <span></span>
+                                        </div>
+                                        <div class="container_first">   <!-- Третий контейнер -->
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="container">
+                                <div class="block_name">
+                                    <span>Игровой процесс</span>
+                                    <p>Что надо сделать</p>
+                                    <div class="container_con">
+                                        <div class="container_first">   <!-- Первый контейнер -->
+                                            <span></span>
+                                        </div>
+                                        <div class="container_first">     <!-- Второй контейнер -->
+                                            <span></span>
+                                        </div>
+                                        <div class="container_first">   <!-- Третий контейнер -->
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </main>
-    </div>
+            </main>
+        </div>
 </template>
 
 <script>
