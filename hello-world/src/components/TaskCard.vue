@@ -1,6 +1,6 @@
 <template>
   <div class="task-card my-style">
-    <div class="text-card">
+    <div>
       <h4 style="margin-bottom: 4px">{{ model.title }}</h4>
       <p style="margin-bottom: 10px">{{ model.description }}</p>
       <h5>{{ model.authors }}</h5>
@@ -50,8 +50,5 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.text-card {
-  
 }
 </style>

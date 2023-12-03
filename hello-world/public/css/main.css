@@ -2,10 +2,6 @@
     display: grid;
 }
 
-.container_menu {
-    margin-left: 75px;
-}
-
 .project {
     display: grid;
 }
@@ -20,7 +16,7 @@
     line-height: normal;
 }
 
-.menu {
+/* .menu {
     width: 176px;
     height: 36px;
     border-radius: 5px;
@@ -38,7 +34,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+} */
 
 .menu:hover {
     cursor: pointer;
@@ -47,7 +43,7 @@
 
 .block {
     display: grid;
-    width: 300px;
+    max-width: 450px;
     height: auto;
     border-radius: 15px;
     background: #FFF;
