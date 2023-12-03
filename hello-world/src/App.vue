@@ -49,10 +49,10 @@
                                     <span>Игровой процесс</span>
                                     <p>Что надо сделать</p>
                                     <div class="container_con">
-                                        <div class="container_first">   <!-- Первый контейнер -->
+                                        <div class="container_first" id="draggable-1" draggable="true" ondragstart="onDragStart(event)">
                                             <span></span>
                                         </div>
-                                        <div class="container_first">     <!-- Второй контейнер -->
+                                        <div class="container_first">   <!-- Второй контейнер -->
                                             <span></span>
                                         </div>
                                         <div class="container_first">   <!-- Третий контейнер -->
@@ -88,7 +88,16 @@
 </template>
 
 <script>
+    function onDragStart(event) {
+  event
+    .dataTransfer
+    .setData('text/plain', event.target.id);
 
+  event
+    .currentTarget
+    .style
+    .backgroundColor = 'yellow';
+}
 </script>
 
 <style>
