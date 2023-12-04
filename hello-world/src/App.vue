@@ -50,11 +50,11 @@ export default {
   },
   setup() {
     const taskList = ref([{id: 0, title: 'Создать', description: 'Сайт', authors: 'RenSeven', status: false}])
-
+    
     const addTask = ({title, description, authors}) => {
       taskList.value = [...taskList.value, {id: taskList.value[taskList.value.length - 1].id + 1, title, description, authors, status: false}]
     }
-
+    
     const setDoneTask = (id) => {
       taskList.value = taskList.value.map(x => {
         if(x.id === id)
